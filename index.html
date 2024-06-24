@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travellers</title>
+    <style>
+        * {
+
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            min-height: 100vh;
+            overflow: scroll;
+            background-image: url('registration.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            
+        }
+        
+
+        .main {
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            width: 100vw;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 180px));
+            column-gap: 30px;
+            row-gap: 30px;
+        }
+
+        img {
+            width: 180px;
+            height: 150px;
+            object-fit: cover;
+            object-position: center;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 150px;
+        }
+
+        .img_1:hover:hover {
+            border-radius: 30%;
+
+            box-shadow: 0 0 2px 1px rgba(238, 7, 95, 0.5);
+
+        }
+
+        .img_2:hover:hover {
+            border-radius: 30%;
+
+            box-shadow: 0 0 2px 1px rgba(234, 238, 7, 0.5);
+        }
+
+        .img_3:hover:hover {
+            border-radius: 30%;
+
+            box-shadow: 0 0 2px 1px rgba(49, 7, 238, 0.5);
+
+        }
+
+        .img_4:hover:hover {
+            border-radius: 30%;
+
+            box-shadow: 0 0 2px 1px rgba(181, 253, 11, 0.5);
+
+        }
+
+        .img_5:hover:hover {
+            border-radius: 30%;
+
+            box-shadow: 0 0 2px 1px rgba(7, 192, 238, 0.5);
+        }
+
+        .img_6:hover:hover {
+            border-radius: 30%;
+
+            box-shadow: 0 0 2px 1px rgba(238, 7, 226, 0.5);
+        }
+
+        .line {
+             margin-top: 50px;
+            text-shadow: 2px 2px 5px rgb(80, 191, 235); 
+           
+            
+        }
+
+        h1 {
+            font-size: 30px;
+            text-align: center;
+            color: rgb(6, 6, 6);
+            padding: 28px;
+            /* background-color: black;
+            border: 5px solid white; */
+            text-shadow: 2px 2px 5px rgb(253, 253, 253);
+        }
+        /* .animation{
+            animation-name: example;
+            animation-duration: 4s;
+            
+        } */
+        /* @keyframes example {
+  from {left:0px; top:0px;}
+  TO {left:200px; top:0px;}
+        }*/
+        
+        .polo {
+            width: 85%;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(253, 196, 196, 0.2), 0 6px 20px 0 #eb5c5c30;
+            margin-bottom: 35px;
+        }
+
+        .text {
+            text-align: center;
+            padding: 10px 20px;
+        }
+        .footer{
+            padding-bottom: 0%;
+
+        } 
+        .line run{
+            border: 1px solid rgb(99, 13, 13);
+            border-radius: 4px;
+            padding: 8px;
+            width: 1250px;
+            
+        }
+        button{
+            float:right;
+            background-color: rgb(230, 149, 44);
+            border-radius: 12px;
+            font-size: 15px;
+            padding: 10px 24px;
+            border: 2px rgb(240, 212, 91);
+            transition-delay: 0.4ms;
+        }
+        button:hover {
+            background-color: bisque;
+            color: white;
+        }  
+    </style>
+</head>
+
+<body style="background-color:rgb(96, 131, 89);">
+    <div>
+    <div class="h1">
+        <h1>ROVERS.in</h1>
+    </div>
+    <div class="button">
+        <a href="login.html"><button onclick="" type="button">Log-out</button></a>
+    </div>
+</div>
+    <div class="line">
+        <marquee class="run" style="color:white ;font-family:'Courier New', Courier, monospace;" behavior="" direction="">
+           <p > GET READY TO GO ON A WONDERFUL TRIP WITH YOUR FRIENDS OR FAMILY</p></marquee>
+    </div>
+    <div class="main">
+        <div class="polo">
+            <img src="agra.jpeg" class="img_1" alt="error">
+            <div class="text">
+                <p> AGRA</p>
+            </div>
+
+        </div>
+        <div class="polo">
+            <img src="amritser.jpeg" class="img_2">
+            <div class="text">
+                <p>AMRITSAR</p>
+            </div>
+        </div>
+        <div class="polo">
+            <img src="delhi.jpeg" class="img_3">
+            <div class="text">
+                <p>DELHI</p>
+            </div>
+        </div>
+        <div class="polo">
+            <img src="jaipur.jpeg" class="img_4">
+            <div class="text">
+                <p>JAIPUR</p>
+            </div>
+        </div>
+        <div class="polo">
+            <img src="kerla.jpeg" class="img_5">
+            <div class="text">
+                <p>KERLA</p>
+            </div>
+        </div>
+        <div class="polo">
+            <img src="mumbai.jpeg" class="img_6">
+            <div class="text">
+                <p>MUMBAI</p>
+            </div>
+        </div>
+    </div>
+   
+    
+<marquee behavior="" direction="" class="line"><footer><p style="color: white;">Contact on +91 8182838485 OR ROVERS@xyz.com</p></footer>
+</marquee>
+</body>
+
+
+</html>
